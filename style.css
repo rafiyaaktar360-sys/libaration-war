@@ -1,0 +1,839 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+
+
+
+
+
+
+.nav-bar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(3, 65, 8);
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    position: static;
+   
+}
+
+
+.nav-barjihad{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(3, 65, 8);
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+   
+}
+.nav-left{
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.nav-left h1 {
+    margin-top: 16px;
+}
+.nav-barjihad p{
+    margin-top: 25px;
+}
+.nav-right{
+    height: 100%;
+    width: 50%;
+    margin: 20px;
+    
+    
+}
+
+.nav-right ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin: 25px;
+    gap: 10px;
+
+}
+.nav-right ul li {
+    list-style: none;
+}
+.nav-right ul li a{
+    text-transform: none;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    
+}
+.nav-right a{
+     text-transform: none;
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.nav-left a{
+     text-transform: none;
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+    margin: 20px;
+}
+
+.pic-0ne{
+    height: 700px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.libaration-mane{
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.boxtext{
+    height: 100px;
+    width: 80%;
+    background-color: rgb(3, 65, 8);
+    gap: 10%;
+    margin-left: 10%;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.textwrite{
+    height: 500px;
+width: 80%;
+/* background-color: aliceblue; */
+color:black;
+justify-content: center;
+text-align: left;
+gap: 10%;
+margin-left: 10%;
+
+}
+
+.cards{
+    height: 600px;
+    width: 80%;
+    gap: 2%;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+.cardson1{
+    height: 85%;
+width: 30%;
+/* background-color: azure; */
+justify-content: center;align-items: center;
+text-align: center;
+
+}
+.cardson2{
+    height: 85%;
+width: 30%;
+/* background-color: azure; */
+justify-content: center;align-items: center;
+text-align: center;
+}
+.cardson3{
+    height: 85%;
+width: 30%;
+/* background-color: azure; */
+justify-content: center;align-items: center;
+text-align: center;
+}
+
+
+
+
+.card-img-top{
+    height: 200px;
+    border-radius: 30px;
+}
+
+.btn{
+    background-color:rgb(231, 101, 41) ;
+    border-radius: 30px;
+    width: 80%;
+    font-size: x-large;
+    
+   
+}
+.btn1 {
+     background-color:rgb(231, 101, 41) ;
+    border-radius: 30px;
+    width: 60%;
+    margin-left: 20%;
+   
+    
+}
+
+
+
+
+
+
+
+/* Ducument page  */
+
+
+
+.histroy-war{
+    height: 100px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 10%;
+
+
+}
+.histroy-war h1{
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 50px;
+}
+
+.content-wa-war{
+    height: 100px;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: center;
+    text-align: left;
+}
+.content-wa-war p{
+    font-size: 20px;
+}
+
+
+.content-divided{
+    height: 300px;
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 5%;
+    margin-left: 10%;
+}
+
+.content-son1{
+    height: 20%;
+    width: 100%;
+    background-color: aqua;
+    border-radius: 10px;
+
+}
+.content-son2{
+    height: 20%;
+    width: 100%;
+    background-color: aqua;
+ border-radius: 10px;
+}
+.content-son3{
+    height: 20%;
+    width: 100%;
+    background-color: aqua;
+ border-radius: 10px;
+}
+.content-son4{
+    height: 20%;
+    width: 100%;
+    background-color: aqua;
+ border-radius: 10px;
+}
+.content-son1 h3{
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.content-son2 h3{
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.content-son3 h3{
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.content-son4 h3{
+    margin-top: 15px;
+    margin-left: 50px;
+ 
+    font-size: 20px;
+}
+
+
+
+.content-son1 h3 a{
+text-decoration: none;
+    font-style: normal;
+    color: black;
+}
+
+
+
+.content-son2 h3 a{
+text-decoration: none;
+    font-style: normal;
+    color: black;
+}
+
+.content-son3 h3 a{
+text-decoration: none;
+    font-style: normal;
+    color: black;
+}
+
+
+
+.content-son4 h3 a{
+text-decoration: none;
+    font-style: normal;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.BrowsebyCategory{
+    height: 100px;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: center;
+    text-align: left;
+    margin-top: 50px;
+}
+.BrowsebyCategory h1{
+    font-size: 50px;
+}
+
+.contentthreecolom{
+    height: 300px;
+    width: 80%;
+    justify-content: center;
+    margin-left: 10%;
+    gap: 2%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.contenttreeson1{
+    height: 100%;
+    width: 31%;
+    background-color: azure;
+    border-radius: 30px
+}
+.contenttreeson2{
+    height: 100%;
+    width: 31%;
+     background-color: azure;
+      border-radius: 30px
+}
+.contenttreeson3{
+    height: 100%;
+    width: 31%;
+     background-color: azure;
+      border-radius: 10px
+}
+.content-war-content{
+    height: 200px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.photowar1{
+    height: 200px;
+    width: 20%;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    background-image: url(image/war\ img1.jfif);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.photowar2{
+    height: 200px;
+    width: 20%;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    background-image: url(image/warimg2.jfif);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.photowar3{
+    height: 200px;
+    width: 20%;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    background-image: url(image/warimg3.jfif);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.inteerview{
+    height: 100px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.carsfather{
+    height: 500px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: bisque; */
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+.cardsonchild1{
+    height: 100%;
+    width: 24%;
+    /* background-color: aqua; */
+}
+.cardsonchild2{
+    height: 100%;
+    width: 24%;
+    /* background-color: aqua; */
+}
+.cardsonchild3{
+    height: 100%;
+    width: 24%;
+    /* background-color: aqua; */
+}
+.cardsonchild4{
+    height: 100%;
+    width: 24%;
+    /* background-color: aqua; */
+}
+.btun{
+     background-color:rgb(231, 101, 41) ;
+    border-radius: 30px;
+    width: 80%;
+    height: 100px;
+    font-size: large;
+
+}
+.btun a{
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    
+}
+.writeparagraph{
+    height: 800px;
+    width: 80%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+
+}
+.writeparagraphson1{
+    height: 50%;
+    width: 100%;
+
+}
+.writeparagraphson2{
+    height: 50%;
+    width: 100%;
+}
+
+
+.blanekinterview{
+    height: 60px;
+    width: 80%;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 50px;
+    font-size: 30px;
+   
+}
+
+.interviewpagwe{
+
+    height: 1200px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    margin-left: 10%;
+    /* background-color: aqua; */
+}
+.interviewsonone{
+    height: 20%;
+    width: 100%;
+    font-size: 20px;
+   /* background-color: beige; */
+}
+.interviewsontwo{
+    height: 35%;
+    width: 100%;
+    
+}
+.interviewsonthree{
+    height: 35%;
+    width: 100%;
+   
+    
+}
+
+
+
+
+
+/* gallary */
+
+
+.picturelwvwlone{
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction:row;
+    gap: 2%;
+    margin-top: 50px;
+}
+.picsonchild1{
+    height: 100%;
+    width: 23%;
+    background-image:url(image/gallary11111.png);
+    border-radius: 30px;
+}
+.picsonchild2{
+    height: 100%;
+    width: 23%;
+    background-image: url(image/gallary2222.jpg);
+     border-radius: 30px;
+}
+.picsonchild3{
+    height: 100%;
+    width: 23%;
+    background-image: url(image/gallary333.png);
+     border-radius: 30px;
+}
+.picsonchild4{
+    height: 100%;
+    width: 23%;
+    background-image: url(image/gallary444.png);
+     border-radius: 30px;
+}
+hr{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.catagory{
+    height: 60px;
+    width: 80%;
+    justify-content: center;
+    text-align: left;
+    margin-left: 10%;
+    font-size: 40px;
+}
+
+.event1-1-1{
+    height: 40px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: left;
+    font-size: 40px;
+}
+.event1-2-1{
+    height: 40px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: left;
+    font-size: 40px;
+}
+
+.picturejihadlwvwlone{
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction:row;
+    gap: 2%;
+    margin-top: 50px;
+}
+
+
+.picsonchild1-1{
+    height: 100%;
+    width: 23%;
+    background-image:url(image/11111vdav.png);
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.picsonchild2-1{
+    height: 100%;
+    width: 23%;
+    background-image: url(image/22222paki.png);
+     border-radius: 30px;
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+.picsonchild3-1{
+    height: 100%;
+    width: 23%;
+    background-image: url(image/3333gasme.png);
+     border-radius: 30px;
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+.picsonchild4-1{
+    height: 100%;
+    width: 23%;
+    background-image: url(image/44444s44asvsa.png);
+     border-radius: 30px;
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.picturejihadlwvwltwo{
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction:row;
+    gap: 2%;
+    margin-top: 50px;
+}
+
+
+.picsonchild1-2{
+    height: 100%;
+    width: 23%;
+    background-image:url(image/fbsdfb.png1111111111.png);
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.picsonchild2-2{
+    height: 100%;
+    width: 23%;
+    background-image: url(image/fsbf.png222222.png);
+     border-radius: 30px;
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+.picsonchild3-2{
+    height: 100%;
+    width: 23%;
+    background-image: url(image/3333gasme.png);
+     border-radius: 30px;
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+.picsonchild4-2{
+    height: 100%;
+    width: 23%;
+    background-image: url(image/gallary444.png);
+     border-radius: 30px;
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.picturejihadlwvwlthree{
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction:row;
+    gap: 2%;
+    margin-top: 50px;
+}
+
+
+.picsonchild1-3{
+    height: 100%;
+    width: 23%;
+    background-image:url(image/warlme.png);
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.picsonchild2-3{
+    height: 100%;
+    width: 23%;
+    background-image: url(image/Waacar.png);
+     border-radius: 30px;
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+.picsonchild3-3{
+    height: 100%;
+    width: 23%;
+    background-image: url(image/vasv.png);
+     border-radius: 30px;
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+.picsonchild4-3{
+    height: 100%;
+    width: 23%;
+    background-image: url(image/warimg3.jfif);
+     border-radius: 30px;
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.picturejihadlwvwlfour{
+    height: 500px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction:row;
+    gap: 7%;
+    margin-top: 50px;
+}
+
+.picsonchild1-4{
+    height: 100%;
+    width: 45%;
+}
+
+.card-img-tooop{
+    height: 300px;
+    border-radius: 30px;
+}
+
+.picsonchild2-4{
+    height: 100%;
+    width: 45%;
+}
+
+
+
+.card-title{
+     color: rgb(4, 39, 4);
+}
+
+
+
+
+
+/* contract page  */
+
+
+.contrsctmother{
+    height: 600px;
+    width: 90%;
+   
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 5%;
+    margin-top: 100px;
+
+}
+.contrsctson1{
+    height: 100%;
+    width: 38%;
+    background-color: aliceblue;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contrsctsonchild1{
+    height: 250px;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(118, 204, 61); */
+    
+}
+.contrsctsonchild1 p{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+
+.Conta{
+margin-left: 30px;
+}
+
+.contrsctsonchild2{
+    height: 250px;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(134, 61, 61);
+    margin-left: 57px;
+    margin-top: 20px;
+}
+.Liberatioooon{
+    width: 100px;
+    color: rgb(94, 16, 16);
+    font-size: 40px;
+    border-width: 3px;
+    font-size: 30px;
+}
+
+
+
+
+.contrsctson2{
+    height: 100%;
+    width: 58%;
+    background-color: aliceblue;
+    border-radius: 30px;
+}
+
+
+.jihadhasan{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.jihadhasanonly{
+     font-size: 25px;
+    margin-left: 200px;
+    height: 40px;
+    width: 200px;
+    border-radius: 40px;
+    background-color: aqua;
+    color: white;
+}
+.jihadhasanonly :hover{
+    background-color: rgb(6, 231, 25);
+    transform: scale(1.2);
+}
